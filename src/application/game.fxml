@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="paneId" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.gameController">
+   <children>
+      <Button fx:id="buttonid" disable="true" layoutX="251.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C1" />
+      <Text fx:id="txtid" layoutX="14.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" wrappingWidth="220.79998779296875" />
+      <Button fx:id="buttonid1" disable="true" layoutX="292.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C2" />
+      <Button fx:id="buttonid2" disable="true" layoutX="333.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C3" />
+      <Button fx:id="buttonid3" disable="true" layoutX="374.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C4" />
+      <Button fx:id="buttonid4" disable="true" layoutX="414.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C5" />
+      <Button fx:id="buttonid5" disable="true" layoutX="455.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C6" />
+      <Circle fx:id="circleiZi" layoutX="340.0" layoutY="104.0" onMouseClicked="#circleClicked" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circleiKuq" fill="#ff1f1f" layoutX="433.0" layoutY="104.0" onMouseClicked="#circleClicked" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="zgjedhLabel" layoutX="340.0" layoutY="37.0" text="Zgjedh Lojtarin">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Text fx:id="showciliLojtar" layoutX="302.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="174.39990234375" />
+      <Button fx:id="buttonFituesi" disable="true" layoutX="373.0" layoutY="527.0" mnemonicParsing="false" onAction="#buttonClicked" text="Fituesi" />
+      <Button fx:id="buttonid6" disable="true" layoutX="496.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="30.0" prefWidth="30.0" text="C7" />
+      <GridPane fx:id="gpane" disable="true" layoutX="251.0" layoutY="228.0" prefHeight="242.0" prefWidth="278.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+   </children>
+</Pane>
